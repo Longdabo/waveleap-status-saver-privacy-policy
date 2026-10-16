@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -9,16 +9,17 @@ body{font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica
 h1{color:#0FB67A; font-size:24px; text-align:center;}
 h2{color:#0A8B5D; font-size:18px; margin-top:24px; border-left:4px solid #0FB67A; padding-left:8px;}
 small{color:#6F7976;}
-a{color:#0FB67A;}
+a{color:#08754F;}
+@media(prefers-color-scheme:dark){body{background:#111917;color:#E1EAE5}.card{background:#1C2824}h1,h2,a{color:#64D8A4}small{color:#AFBEB5}}
 .card{background:#fff; border-radius:12px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); margin-bottom:16px;}
 </style>
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p style="text-align:center"><small>Waveleap Status Saver • com.xapp.waveleap.statusaver • Updated: 23 Sep 2026</small></p>
+<p style="text-align:center"><small>Waveleap Status Saver • com.xapp.waveleap.statusaver • Updated: 16 Oct 2026</small></p>
 
 <div class="card">
-<p>Waveleap Status Saver (X App Team) respects your privacy. This is an offline utility that helps you save WhatsApp / WhatsApp Business statuses. <b>X App Team does not receive the status files you save or your WA Web account data.</b> No X App Team account or login is required, and the app has no analytics or ads SDK. The optional WA Web tool connects to WhatsApp as described below.</p>
+<p>Waveleap Status Saver (X App Team) respects your privacy. The app saves WhatsApp / WhatsApp Business status files locally. <b>X App Team does not receive your saved status files or WhatsApp account data.</b> No Waveleap account or login is required. The app has no analytics or advertising SDK and does not request Android internet permission. Optional online tools open external applications as described below.</p>
 </div>
 
 <h2>1. Data We Do Not Collect</h2>
@@ -34,10 +35,10 @@ a{color:#0FB67A;}
 <div class="card">
 <ul>
 <li><b>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE (Android 9 and below)</b>: To save statuses in public Downloads and show files saved by the app. These permissions are not requested on Android 10 and later.</li>
-<li><b>Storage Access Framework (Android/media)</b>: To read the status folders for WhatsApp and WhatsApp Business after you choose the folder in Android's system picker. The granted URI is stored locally in app preferences. You can revoke the folder grant in Android settings or by clearing app data.</li>
-<li><b>Download feedback</b>: The app shows an on-device confirmation after a WA Web download. On Android 12 and below it may also show a local download notification. No push notification permission is requested.</li>
+<li><b>Storage Access Framework (Android/media)</b>: To read, save copies of, and delete selected status files after you choose the folder in Android's system picker. Deletion requires confirmation in the app. The granted URI is stored locally in app preferences. You can revoke the folder grant in Android settings or by clearing app data.</li>
+<li><b>Download feedback</b>: Status saving shows an on-device confirmation. The app does not request notification, camera, microphone, contacts, location, broad media-library, or all-files permissions.</li>
 </ul>
-<p>All permissions are optional. Denying only limits related feature (e.g., without SAF you will see empty Recent).</p>
+<p>You may skip setup and use tools without granting folder access. Without access to a status folder, Recent cannot show its files. Android 9 and earlier require storage permission to save files to public Downloads.</p>
 </div>
 
 <h2>3. Local Status Processing</h2>
@@ -47,13 +48,14 @@ a{color:#0FB67A;}
 
 <h2>4. Third-Party Services</h2>
 <div class="card">
-<p>The optional WA Web tool loads <code>https://web.whatsapp.com/</code> in an in-app browser. When you use it, WhatsApp may receive account, device, connection, and usage information and may store browser data such as cookies. Files you choose to send through WA Web go to WhatsApp. See <a href="https://www.whatsapp.com/legal/privacy-policies">WhatsApp's privacy policy</a>. X App Team does not operate WhatsApp or receive your WA Web account data.</p>
-<p>We do not integrate any third-party analytics or ads. Links to Play Store (Rate, More Apps → <a href="https://play.google.com/store/apps/developer?id=X+App+Team">X App Team</a>) open in an external browser only when you tap them.</p>
+<p>The optional WA Web shortcut opens <code>https://web.whatsapp.com/</code> in an external browser, not inside this app. You may need to enable the browser’s desktop-site setting and link your WhatsApp account there. WhatsApp and your browser handle any account information, cookies, connection data, messages, and downloads under their own policies. Waveleap does not create or store a WhatsApp login session. See <a href="https://www.whatsapp.com/legal/privacy-policy">WhatsApp’s privacy policy</a>.</p>
+<p>Direct Chat sends the phone number and optional message you enter to an external WhatsApp link only when you tap its action button. Share/Repost sends the file you select to the external app you choose. Those services may transmit this data over the internet under their own policies; X App Team does not receive it.</p>
+<p>Rate and More Apps open Google Play or an external browser when you tap them. We do not integrate third-party advertising or analytics. The app itself has no internet permission.</p>
 </div>
 
 <h2>5. Children's Privacy</h2>
 <div class="card">
-<p>App contains no user-generated content collection and is suitable for general audience. We do not knowingly collect data from children under 13.</p>
+<p>Waveleap is intended for adults aged 18 and over and is not directed to children. X App Team does not knowingly collect personal data from children. External services have their own age requirements.</p>
 </div>
 
 <h2>6. Security</h2>
@@ -63,12 +65,12 @@ a{color:#0FB67A;}
 
 <h2>7. Your Rights (GDPR / CCPA)</h2>
 <div class="card">
-<p>X App Team does not operate a server that stores your app data. To remove local files, delete them in the app or Android's file manager. To remove local WA Web session data or revoke folder access, clear app data in Android Settings. For data handled by WhatsApp, use WhatsApp's account and privacy controls. For questions about this app, contact us below.</p>
+<p>X App Team does not operate a server that stores your app data. To remove local files, delete them in the app or Android's file manager. To revoke folder access, clear app data in Android Settings. WA Web sessions are stored in your external browser; use its controls to clear them and WhatsApp’s Linked devices screen to unlink a session. For data handled by WhatsApp, use WhatsApp’s account and privacy controls. For questions about this app, contact us below.</p>
 </div>
 
 <h2>8. Changes</h2>
 <div class="card">
-<p>We may update this policy to reflect Android API changes. The new date will be posted here. Continued use after update implies acceptance.</p>
+<p>We may update this policy to reflect Android API changes. The updated date and policy will be posted here.</p>
 </div>
 
 <h2>9. Contact</h2>
